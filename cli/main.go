@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/edmondfrank/probe-mcp-go"
+	"github.com/edmondfrank/mcp-probe-go"
 	"github.com/mark3labs/mcp-go/server"
 )
 
@@ -16,7 +16,7 @@ func main() {
 
 	// Create a new MCP server with all tools registered
 	s := mcpprobego.NewProbeMCPServer(
-		"@buger/probe-mcp-go",
+		"@edmondfrank/mcp-probe-go",
 		version,
 	)
 

@@ -1,4 +1,4 @@
-# probe-mcp-go
+# mcp-probe-go
 
 A Go-based MCP (Multi-Tool Code Processing) server for searching and extracting code using ElasticSearch and AST-grep, with support for code block extraction and advanced code queries.
 
